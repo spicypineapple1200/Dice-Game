@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Welcome to Dice Game!</h1>
+
+      <h2 class="p1score">P1 Score: 0</h2>
+      <h2 class="p2score">P2 Score: 0</h2>
+      <h6 class="totalrolls">Total Rolls: 0</h6>
+      <h3 class="lead">No one is in the lead!</h3>
+
+      <h5>Green Button to Play -- Red Button to Reset</h5>
+      <div>
+        <button onclick="diceRoll()" class="playbutton" src="images/red-button.png"></button>
+        <button onclick="window.location.reload()" class="resetbutton" src="images/red-button.png"></button>
+      </div>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+
+    </div>
+  </body>
+
+  <footer>
+  </footer>
+</html>

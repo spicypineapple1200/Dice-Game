@@ -1,0 +1,105 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.playbutton {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: inline;
+  background-color: green;
+  object-fit: cover;
+  border: 5px solid black;
+  transition-duration: 0.4s;
+  margin: 0 50px 0;
+}
+
+.playbutton:hover {
+  background-color: rgb(148, 20, 177);
+}
+
+.resetbutton {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: inline;
+  background-color: red;
+  object-fit: cover;
+  border: 5px solid black;
+  transition-duration: 0.4s;
+  margin: 0 50px 0;
+}
+
+.resetbutton:hover {
+  background-color: rgb(148, 20, 177);
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+h2 {
+  margin: 5px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 1.7rem;
+  color: #4ECCA3;
+}
+
+h3 {
+  margin: 10px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ECCA3;
+  visibility: hidden;
+}
+
+h5 {
+  margin: 10px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 1.7rem;
+  color: #4ECCA3;
+}
+
+h6 {
+  margin: 15px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 1.5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 58%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
